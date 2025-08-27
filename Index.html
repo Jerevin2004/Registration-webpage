@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Client Information Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Client Information Form</h1>
+
+  <form>
+    <label>Name</label>
+    <input type="text" name="name">
+
+    <label>Email</label>
+    <input type="email" name="email">
+
+    <label>Project Type</label>
+    <select name="project">
+      <option value="">Select</option>
+      <option>Website</option>
+      <option>Branding</option>
+    </select>
+
+    <label>Upload File</label>
+    <input type="file" name="file">
+
+    <label>Approve Timeline</label>
+    <select name="approval">
+      <option value="">Select</option>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+
+    <label>Signature</label>
+    <input type="text" name="signature">
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
